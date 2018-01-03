@@ -1,6 +1,7 @@
 package com.example.nishant.calldialer;
 
 import android.Manifest;
+import android.app.NotificationManager;
 import android.app.TabActivity;
 import android.content.Context;
 import android.content.Intent;
@@ -8,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -30,9 +32,9 @@ public class AndroidTabLayoutActivity extends AppCompatActivity{
             public void onClick(View v) {
                 Intent intent = new Intent(AndroidTabLayoutActivity.this, MainActivity.class);
                 startActivity(intent);
+
             }
         });
-
 
 
         int PERMISSION_ALL = 1;
