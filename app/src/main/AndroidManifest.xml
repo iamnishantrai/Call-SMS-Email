@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +23,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".CallActivity" />
         <activity android:name=".EmailActivity" />
-        <activity android:name=".SMSActivity"></activity>
+        <activity android:name=".SMSActivity" />
+        <activity android:name=".SignatureActivity"></activity>
     </application>
 
 </manifest>

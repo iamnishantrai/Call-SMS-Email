@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new CallActivity(), "Call");
         adapter.addFragment(new SMSActivity(), "SMS");
         adapter.addFragment(new EmailActivity(), "Email");
+        adapter.addFragment(new SignatureActivity(), "Signature");
         viewPager.setAdapter(adapter);
     }
 
